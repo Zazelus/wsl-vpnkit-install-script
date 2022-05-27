@@ -30,7 +30,7 @@ Note: Run commands without the quotes of course.
 6. Just incase you missed the message on the shell screen, you need to run:
    'wsl.exe -d wsl-vpnkit service wsl-vpnkit start'
 
-#Disclaimer
+# Disclaimer
 I guess it states it in the license, but... The script may have some undesired behavior. One issue I can think of is the Invoke-WebRequest to download the v0.3.2 release. The link may end up being broken at some point, but on a more practical level, you might need the latest release. You could edit the script and change the URL to the latest release.
 
 I've tested it on my end several times, and on some other user's Windows machines.
