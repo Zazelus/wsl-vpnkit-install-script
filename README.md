@@ -5,9 +5,11 @@ The official wsl-vpnkit project can be found here: https://github.com/sakai135/w
 
 # How It Works
 According to sakai135, some VPNs route all traffic to and from the host through the VPN and block other connections. The WSL 2 VM is considered a separate network to the Windows host and so connections to/from the VPN get blocked as well. An example of this would be Cisco AnyConnect VPN.
+
 Source: https://github.com/sakai135/wsl-vpnkit/discussions/128
 
 Sakai's wsl-vpnkit uses a project called gvisor-tap-vsock to transfer the connections from the VM to the Windows process on the host.
+
 gvisor-tap-vsock: https://github.com/containers/gvisor-tap-vsock
 
 # Script Usage:
